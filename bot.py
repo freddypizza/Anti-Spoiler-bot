@@ -11,8 +11,8 @@ from aiogram.enums import ParseMode
 logging.basicConfig(level=logging.INFO)
 
 
-BOT_TOKEN = '8733679614:AAHqsEDL7_EGfEdd-fpiFhn80QksDg2np0s'
-bot = Bot(token=BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
+
+
 dp = Dispatcher()
 
 # В реальном проекте используйте базу данных (PostgreSQL/SQLite).
